@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Jack Morris">
+        <meta name="keywords" content="images and imagemap">
+        <meta name="description" content="Assignment #2">
+        <meta name="completed" content="10/03/2021">
+        <meta charset="utf-8">
+        <title>assignment 2</title>
+    </head>
+
+    <body style="background-color: rgb(192, 161, 150);">
+        <p style = "text-align: left; font-size: 20px; color: red;">
+            <a href=index.html>Back to main page</a></p>
+        <!-- Requirement 1: A Heading -->
+        <h1><mark>Requirement 1</mark>: Assignment 2 Heading</h1>
+        <!-- Requirement 2: A paragraph -->
+        <p><mark>Requirement 2</mark>: Assignment 2 paragraph</p>
+
+        <!-- Requirement 3: Ordinary Image with link-->
+        <h2><mark>Requirement 3</mark>: Ordinary image with link</h2>
+        <hr style="border-width: 2px; border-color: black;">
+        <p>I wasn't entirely sure I understood this requirement correctly, so I included 2 examples.</p>
+        <p> The 2nd example is what I think satisfies the requirement, but the first one I included just in case.</p>
+        <!-- I wasn't sure what was meant by ordinary image with link so I included several examples -->
+        <dl>
+            <dt><b>This image links to assignment 1</b>; includes a hyperlink that does the same thing</dt>
+            <dd style="margin-bottom: 50px;">
+                <div style="width: 500px; border:1px solid black; background-color: rgb(207, 177, 177)">
+                    <!-- assignment 1 contains a link back to assignment 2-->
+                        <a href="assignment1.html"> this text also links to assignment 1
+                            <img src="IMG/hogw.png" alt="hogw1" style="border: 2px solid blue;"
+                             title="click for assignment 1"></a></div></dd>
+            <dt><b>This image links to the image itself</b>; includes a hyperlink that does the same thing</dt>
+            <dd> 
+            <div style="width: 500px; border: 1px solid blue; background-color: rgb(100, 177, 133);">
+            <a href="hogw.png" target="_blank"> This text also links to the image itself
+                <img src="IMG/hogw.png" alt="hogw" style="border: 2px solid pink;" 
+                title="click for image link"></a></div></dd>
+        </dl>
+        <hr style="border-width: 2px; border-color: black;">
+        <br><br>
+        <!-- Requirement 4: Imagemaps-->
+        <h2>
+            <mark>Requirement 4</mark>: An <u>imagemap</u> with 2 clickable areas/hotspots, link 
+            one to assignment1 and link the other to any available picture.</h2>
+        <p> Click the <span style="color: blue"><b>BLUE</b></span> circle for assignment 1.</p>
+        <p>Click the <span style="color: purple"><b>PURPLE</b></span> circle for an image.</p>
+        <p>The <span style="color: orange;"> <b>ORANGE</b></span> circle is unrelated to the assignment, but clicking it 
+            will take you to the Black Goose Bistro website.</p>
+        <p>The jungle invoker text is unrelated to the assignment, but will take you to a website.</p>
+        <!-- assignment 1 contains a link to get back to assignment 2-->
+        <img src="IMG/jungleinvoker.jpg" alt="jungle invoker picture" usemap="#jungleinvokerMap" 
+        style="border: 4px solid black;">
+
+        <map name="jungleinvokerMap">
+            <area shape="circle" coords="140,349,60" alt="Quas" href="assignment1.html" target="_blank"
+            title="Quas -> Assignment 1">
+            <area shape="circle" coords="538,264,63" alt="Wex" href="hogw.png" target="_blank"
+            title="Wex -> hogw image">
+            
+            <!-- unrelated to assignment 2-->
+            <area shape="circle" coords="224,144,66" alt="Exort" 
+            href="https://www.andrews.edu/~barretts/DGME250/a5-bistro-barrett/" target="_blank"
+            title="Exort -> Black Goose Bistro">
+            <area shape="rect" coords="165,527,458,706" alt="Jungle Invoker" 
+            href="https://en.wikipedia.org/wiki/Idiot" target="_blank"
+            title="idiot"></map>
+    </body>
+</html>
