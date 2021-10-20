@@ -1,0 +1,293 @@
+body {
+    background: #2b2b2b;
+    margin: 0;
+}
+h1 {
+    color: seagreen;
+}
+h2 {
+    color:seagreen;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+/* thinking about if using class or ID is better here */
+#practicepageid {
+    background:rgb(173, 144, 107);
+    margin: 10px;
+}
+.practicepage h1 {
+    color: blue;
+}
+a.practicepage {
+    margin-right: 20px;
+}
+#csspaddingid {
+    background-color: lightblue;
+    margin: 10px;
+}
+h1.csspaddingheader1 {
+    color:green;
+}
+h1.csspaddingheader2 {
+    color: greenyellow;
+}
+div#divchangedid{
+    border-style:dashed;
+    border-color:blue;
+    width: 200px;;
+    padding: 25px;
+    box-sizing: border-box;
+}
+div.csspadding {
+    background-color: thistle;
+    border-style:dotted;
+    border-color:red;
+    width: 200px;;
+    padding: 25px;
+    box-sizing: border-box;
+}
+div.csspadding2 {
+    background-color: wheat;
+    border-style:solid;
+    border-color:yellow;
+    width: 200px;;
+    padding: 25px;
+    box-sizing: border-box;
+}
+h1.cssheightwidth1 {
+    color:darkred;
+}
+h1.cssheightwidth2 {
+    color: red
+}
+div.cssheightwidthdiv1{
+    height: 200px;
+    width:60px;
+    background-color: royalblue;
+}
+div.cssheightwidthdiv2 {
+    height:200px;
+    width:75%;
+    background-color: seagreen;
+}
+div.boxmodel-div1{
+    background-color: seashell;
+    width:300px;
+    border:10px solid green;
+    padding: 50px;
+    margin:20px;
+}
+.cssoutline {
+    background-color: seashell;
+    margin:10px;
+    margin-right: 50%;
+    outline-style: dotted;
+    outline-color: yellowgreen;
+    outline-width: 4px;
+}
+.cssoutlineoffset {
+    outline-offset: 15px;
+    margin-bottom: 50px;
+}
+div.boxmodel-div1.cssoutline{
+    background-color: rgb(223, 218, 215);
+    width:300px;
+    border:10px solid green;
+    padding: 50px;
+    margin:20px;
+    outline-style: dotted;
+    outline-color: springgreen;
+    outline-width: 4px;
+}
+a:link {
+    color:darkorange;
+}
+a:visited {
+    color: purple;
+}
+a.csslinks:link, a.csslinks:visited {
+    background-color:#04AA6D;
+    
+    border-radius:5px;
+    color:blue;
+    font-weight: bold;
+    text-align: center;
+    padding:7px 18px
+}
+a.csslinks:hover {
+    background-color:tomato;
+    cursor:wait;
+    border-radius:5px;
+    color:blue;
+    font-weight: bold;
+    text-align: center;
+    padding:7px 18px
+}
+.csszindex {
+    margin-top: 55px;
+    position:absolute;
+    left: 0px;
+    top: 50px;
+    z-index:-1;
+}
+.overflow1 {
+    float:left;
+    margin-bottom: 25px;
+    background-color: #eee;
+    width: 100px;
+    height: 50px;
+    overflow:visible;
+    border:5px solid black;
+}
+.overflow2 {
+    float: left;
+    background-color: #eee;
+    width: 100px;
+    height: 50px;
+    overflow:hidden;
+    border:5px solid black;
+}
+.overflow3 {
+    float:left;
+    background-color: #eee;
+    width: 100px;
+    height: 50px;
+    overflow:scroll;
+    border:5px solid black;
+}
+.overflow4 {
+    float: left;
+    background-color: #eee;
+    width: 100px;
+    height: 50px;
+    overflow:auto;
+    border:5px solid black;
+}
+.overflow5 {
+    float:none;
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    overflow:auto;
+    border:5px solid black;
+}
+.img1 {
+    float:left;
+}
+div.clearfix {
+    border:3px solid red;
+    color: seashell;
+}
+.clearfix1 {
+    content:"";
+    clear:both;
+    display:table;
+}
+.layoutboxsizing {
+    box-sizing: border-box;
+}
+.layoutbox {
+    background-color: #ddd;
+    float:left;
+    width:50%;
+    padding:50px;
+    height:150px
+}
+.img-container1{
+    background-color: seashell;
+    float:left;
+    width:50%;
+    padding:5px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: dodgerblue;
+}
+.flex-container .box {
+    background-color: #f1f1f1;
+    width: 33.33%;
+    margin: 10px;
+}
+.flex-menu {
+    margin-top: 15px;
+    display:flex;
+    flex-wrap:nowrap;
+    background-color: sandybrown;
+    margin-bottom: 15px;
+}
+.flex-menu .box {
+    background-color: green;
+    width: 75px;
+    margin:20px;
+    text-align: center;
+}
+.activemenu {
+    background-color: red;
+}
+.ulmenu {
+    list-style-type: none;
+    margin: 0;
+    padding:0%;
+    overflow: hidden;
+    background-color: black;
+}
+.limenu {
+    float:left;
+}
+.limenu a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+.limenu a:hover {
+    background-color: aquamarine;
+}
+.ulmenu2 {
+    list-style-type: none;
+    margin: 10px;
+    padding:0%;
+    overflow: hidden;
+    background-color: sienna;
+}
+.ulmenu2 li{
+    display: inline-block;
+}
+.ulmenu2 a{
+    display:inline-block;
+    color:blue
+}
+.limenu2 li{
+   
+    display: inline-block;
+}
+.limenu2 a{
+   
+    color:springgreen;
+    text-align: center;
+    padding: 15px;
+}
+.limenu2 a:hover {
+    background-color: skyblue;
+}
+.activemenu2 {
+    background: red;
+}
+.nav {
+    list-style-type: none;
+    text-align: cemter;
+    overflow: hidden;
+}
+.navli  {
+   float:left;
+}
+.navli a{
+    color:blue;
+    display: inline-block;
+    padding:15px;
+    background-color: blueviolet;
+}
+.navli a:hover {
+    background-color: burlywood;
+}
